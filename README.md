@@ -1,209 +1,180 @@
-## 官网问题已经修复,可以正常访问,后续如有问题请邮件联系
-## 删除了无用的菜单和容易报错的项目,后续会在2025年春节后继续更新
-## 平台简介
+当前版本：2.8.1
 
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">huimao-platform 多租户Saas快速开发平台</h1>
-<h4 align="center">基于Ruoyi-Cloud版本改造的的多租户SaaS开发框架。</h4>
+[🔥 慧猫开源停车平台 · 后端微服务端](https://github.com/Roinli2561/HUIMAO-ParkOS-cloud)（当前）
+
+[🔥 慧猫开源停车平台 · 前端源码](https://github.com/Roinli2561/HUIMAO-ParkOS-admin)
+
+[🔥 慧猫开源停车平台 · 小程序源码](https://github.com/Roinli2561/HUIMAO-ParkOS-miniapp)
+
+[🔥 个人博客](https://wenhui.huizhidata.com)
+
+<div align="center">
+
+# HUIMAO Parking · 云端服务
+
+慧猫开源停车平台 · 后端微服务端（Spring Cloud Alibaba）
+
+</div>
+<div align="center">
+    <img src="https://img.shields.io/badge/Version-2.8.1-blue.svg?style=flat" />
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat" />
+</div>
 <p align="center">
-    <a style="margin-right: 5px">
-       <img src="https://img.shields.io/badge/huimao%20Platform-v1.2.2-brightgreen" alt="huimao-platform">
-    </a>
-    <a style="margin-right: 5px" href="ttps://www.jetbrains.com/?from=RuoYi-Vue-Plus">
-       <img src="https://img.shields.io/badge/IntelliJ%20IDEA-提供支持-blue.svg" alt="IntelliJ-IDEA">
-    </a>
-    <a style="margin-right: 5px">
-           <img src="https://gitee.com/huimao/huimao-platform/badge/star.svg?theme=dark" alt="huimao-platform">
-    </a>
-    <a style="margin-right: 5px">
-       <img src="https://gitee.com/huimao/huimao-platform/badge/fork.svg?theme=dark" alt="huimao-platform">
-    </a>
-   <a style="margin-right: 5px">
-           <img src="https://img.shields.io/github/stars/huimao/huimao-platform?logo=github" alt="huimao-platform">
-    </a>
-   <a style="margin-right: 5px">
-           <img src="https://img.shields.io/github/forks/huimao/huimao-platform?logo=github" alt="huimao-platform">
-    </a>
-
+  <b>☁️ Cloud 云端服务</b> ·
+  <a href="https://github.com/Roinli2561/HUIMAO-ParkOS-admin">🖥️ Admin 运营管理后台</a> ·
+  <a href="https://github.com/Roinli2561/HUIMAO-ParkOS-miniapp">📱 MiniApp 车主小程序</a>
+</p>
+<p align="center">
+  如果对您有帮助，您可以点右上角 "Star" ❤ 支持一下谢谢！
 </p>
 
-- 首先感谢若依提供的开源支持!请大家继续关注若依项目!
+---
 
-- 本项目基于 [RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud) 进行二次开发的租户版本,主要致力于租户模式和服务治理相关的部分。
+## 📖 项目介绍
+HUIMAO Parking 是一款基于 MIT 协议发布的开源停车场数字化解决方案。代码全开源无加密，可免费商用，适合各类物业、停车场运营方及开发者快速构建多租户一体化停车管理平台。
 
-- 本项目主要针对企业租户场景开发，脚手架功能同步更新  [RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud)  项目。
-
-- 采用`MIT开源协议`，完全免费给个人及企业使用。
-
-#### 友情链接 [若依/RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud) Element UI版本。
-star 别忘点上 :kissing_heart:
-## 项目地址
-Gitee: https://gitee.com/huimao/huimao-platform
-
-GitHub: https://github.com/huimao/huimao-platform
-## 演示地址
-PS:目前已经升级服务器,修改为阿里云3M的服务器,请大家请勿恶心访问刷新,如果官网出现问题请邮件联系我!
-- http://platform.huimao.cn
-- 账号密码 admin/admin123
-- 目前演示地址权限全开,请勿随意删除相关数据,本人只做了初始化数据库备份,如果出现异常情况,会选择直接回滚初始版本
-## 文档地址
-- https://doc.huimao.cn
-## 个人blog
-- https://www.huimao.cn
-## 公众号-huimao
-- huimao 全新公众号
-## 有问题请issues有限提问,每天会定时处理!
-
-## 交流
-- 请移步右上角  **一键三连** :kissing_heart:
-- 邮箱:dhr92@163.com
-- Q群:628417588 (目前某500强企业搬砖,工作环境比较繁忙,上班期间可能无法回复相关问题)。
+![d6f55b24b216d0ead319e373ae08db1e_index-1.png](doc/images/d6f55b24b216d0ead319e373ae08db1e_index-1.png)
+![7e5c64c2361b5b358493ad36fa84ae74_index-3.png](doc/images/7e5c64c2361b5b358493ad36fa84ae74_index-3.png)
+![507916b77cf2cef7fae4a2b55300b706_16.png](doc/images/507916b77cf2cef7fae4a2b55300b706_16.png)
+![b6e88fd1c2ff443c664ba6670640e614_13.png](doc/images/b6e88fd1c2ff443c664ba6670640e614_13.png)
+![5df9e18f8049ac1d5d2b25c12a931653_14.png](doc/images/5df9e18f8049ac1d5d2b25c12a931653_14.png)
 
 
-## 主要添加模块
-- 1.添加了租户功能,包含自定义租户套餐,租户到期禁用登陆等功能
-- 2.替代mybatis为mybatis-plus模块
-- 3.添加了邮件通知功能
-- 4.添加了自定义监控模块,暂时代替monitor模块
-- 5.去除定时任务模块,选择了xxl-job,目前没有加入代码库
-- 6.优化代码生成模块-代码生成默认集成mybatis-plus的CRUD模块
-- 7.添加通知模块,和OSS存储模块,已经集成阿里云短信,后续会集成七牛云和腾讯等第三方
-- 8.集成xxl-job到系统,重构定时任务管理界面,账号权限通用
-- 9.优化文件服务
-- 10.单体运行模块
-## 后续开发任务
-- 1.继续同步RuoYi-Cloud相关版本性更新
-- 2.优化租户增删改查时候的数据处理逻辑,以及租户到期提前一星期通知功能(完成)
-- 3.完善租户模式下的数据权限问题(完成)
-- 4.集成阿里云,腾讯云等短信服务,并接入第三方登陆系统,增加短信登陆功能(已完成)
-- 5.集成七牛云等云存储
-- 6.租户添加自定义Logo和系统名称,后续考虑集成二级域名登陆租户系统
-- 7.监控功能添加数据库监控和表监控
-- 8.集成K8S环境
-- 9.集成链路追踪
-- 10.集成普罗米修斯
+### 技术架构
+系统采用 Java + Vue + uni-app 技术栈，基于 Spring Cloud Alibaba 微服务架构构建，前后端分离设计清晰。借助 uni-app 跨端能力，实现管理后台、车主小程序、H5 端全覆盖，数据统一、业务同步，极大提升开发与维护效率。同时系统代码规范清晰，注释详尽，二次开发十分方便。
 
-## 新增单体模块说明
-#### 单体模块是独立于整体项目的一个demo,它只是集成了部分huimao common模块里的公共组件
-#### 设立此模块的初衷是因为部门公司场景下,快速开发平台需要提供为相应的二级部门使用,但是又不希望完全暴露平台代码
-#### 所以单体模块相当于一个二开模块的抽离,平台开发组只要将 huimao框架整体打包成镜像或者Jar提供给二开部门即可
-#### 这样既避免了源码的泄露,又给予二级使用部门一定的开发权限
-#### 单体模块我只是做了一个例子,后续的使用需要根据各个公司的实际情况去进行二次订制
-#### 目前前端还没有做组件级封装,后续封装完成后会上传代码
+### 核心功能
+#### 全链路运营管理
+平台核心管理功能完善，包含租户管理、停车场管理、通道设备管理、收费规则配置、订单追踪、财务统计、提现审核等，覆盖停车经营全流程。
 
-## 启动说明
+#### 车主端便捷服务
+提供扫码缴费、车牌查询、订单查看、支付结果反馈等轻量功能，实现"扫码即达、查询即用、支付即走"的高频闭环体验。
 
-### 请参考保姆级教程  - [huimao项目启动教程](https://www.huimao.cn/archives/huimao-xiang-mu-qi-dong-jiao-cheng)
+#### 设备智能接入
+支持道闸、摄像头、显示屏等各类停车设备接入，实现入场/出场事件上报、心跳监测、远程开闸指令回调等设备联动能力。
 
-### 其他细节说明
-### 最新更新,项目已内置Nacos,直接启动即可
-#### 1.如果nacos自行运行 如果是 M1的芯片 会出现内核报错 采用下方nacos镜像即可  docker pull zhusaidong/nacos-server-m1:2.0.3
-     - 运行指令如下 
-     docker run --name nacos-standalone -e MODE=standalone -e JVM_XMS=512m -e JVM_XMX=512m -e JVM_XMN=256m -p 8848:8848 -d zhusaidong/nacos-server-m1:2.0.3
-     
-- 非M1芯片或者非docker环境请自行参考文档里的相关部署说明
-### 以下非必须，如果感觉修改host比较麻烦，可以自行都修改为127.0.0.1    
-#### 2.mysql,redis等自行安装根据需求修改配置文件里的端口和连接,目前nacos初始化的配置文件里写的地址都是host映射的地址,如果需要指定指定地址请自行修改
-     - Windows处于 C:\Windows\System32\drivers\etc
-     - Linux和Mac都属于 /etc/hosts下
-     
-    主要添加以下几个部分,不理解的自行百度,其中127.0.0.1为你自己的本机ip
-    127.0.0.1 huimao-platform 
-    127.0.0.1 huimao-nginx 
-    127.0.0.1 huimao-nacos 
-    127.0.0.1 huimao-mysql 
-    127.0.0.1 huimao-gateway 
-    127.0.0.1 huimao-auth 
-    127.0.0.1 huimao-system 
-    127.0.0.1 huimao-file 
-    127.0.0.1 huimao-gen 
-    127.0.0.1 huimao-monitor 
-    127.0.0.1 huimao-redis 
-    127.0.0.1 huimao-job
-    127.0.0.1 huimao-demo
+#### 多租户SaaS能力
+原生支持多租户隔离架构，可同时管理多个停车场运营主体，数据独立、权限隔离，满足平台化运营需求。
 
-#### 3.前后端启动说明
-     - 1.nacos和mysql以及redis正常运行后 优先启动gateway网关和 auth服务,其他的就可以同时启动了
-     - 2.前段部分,记得修改vue.config里的后端接口地址
+### 系统优势
+#### 成熟稳定的微服务架构
+后端：Spring Boot + Spring Cloud Alibaba，前端：Vue + ElementUI（管理端）与 uni-app（移动端），多端并行开发，结构清晰。
 
+#### 规范的接口设计
+提供标准 RESTful API 与统一数据结构，接口复用率高，逻辑层次清晰，便于二次开发与第三方系统集成。
 
-## 一键式体验(要求linux环境)
-##### 1.docker安装和docker-compose安装请参考文档里的-应用容器部署模块进行安装
-##### 2.安装完成后下载项目到任意文件夹目录,自行安装 maven,jdk,node环境 下面简单提供三个教程链接仅供参考
- - [Centos7安装JDK8](https://www.huimao.cn/archives/centos7-an-zhuang-jdk18-tu-wen-jiao-cheng)
- - [Centos7安装maven](https://www.huimao.cn/archives/centos7-an-zhuang-maven)
- - [Centos7安装nodejs14](https://www.huimao.cn/archives/centos7-an-zhuang-nodejs14)
-##### 3.脚本执行
-      - 1.cd ./docker 目录下 执行 copy.sh 脚本会自动进行打包编译和copy
-      - 2.首先执行 sh deploy.sh base 命令进行 nacos,mysql,redis的初始化,初始化完成后建议等待10秒后执行查下一步
-      - 3.后面执行 项目脚本 sh deploy.sh modules ,如果防火墙没有关闭 还可以执行port指令请自行研究脚本
-      - 4.执行copy脚本前可以根据自己的需求自行替换相关变量 比如初始变量设置了 192.168.200.188这个虚拟机ip 可以根据需要自行全局替换
+#### 多维数据统计
+集成 ECharts 实现经营数据看板，支持订单、收入、车流量等多维度统计分析，数据可导出，助力运营决策。
 
-## 功能截图
+#### 高效开发支持
+内置代码生成器，支持前后端代码一键生成，大幅减少重复工作，提升开发效率。
 
-![huimao-Platform4](./doc/readme/huimao-1.png)
-![huimao-Platform1](./doc/readme/huimao-2.png)
-![huimao-Platform3](./doc/readme/huimao-3.png)
-![huimao-Platform4](./doc/readme/huimao-4.png)
-![huimao-Platform4](./doc/readme/huimao-5.png)
-![huimao-Platform2](./doc/readme/huimao-6.png)
-![huimao-Platform4](./doc/readme/huimao-7.png)
+#### 精细权限控制
+基于 Spring Security 实现 RBAC 角色权限控制，可精确到按钮级别，同时支持多租户数据隔离，保障系统安全。
 
+#### 高可用设计
+内置 Redis 缓存与 XXL-JOB 定时任务，有效削峰解耦，提升系统并发能力与稳定性。
 
+---
 
-## 系统模块
+## 💻 技术特点
+### 运行环境及框架
+1. 车主端 uni-app 开发框架 可生成微信小程序、H5
+2. WEB PC 管理后台使用 Vue + Element UI 开发 兼容主流浏览器
+3. 后台服务 Java Spring Boot + Spring Cloud Alibaba + MyBatis-Plus + MySQL + Redis
+4. 运行环境 Linux 和 Windows 等都支持，只要有 Java 环境和对应的数据库、Redis
+5. 运行条件 Java 1.8、MySQL 5.7+、Redis 5+
 
-~~~
-com.huimao     
-├── huimao-ui              // 前端框架 [80]
-├── huimao-gateway         // 网关模块 [38080]
-├── huimao-auth            // 认证中心 [39200]
-├── huimao-api             // 接口模块
-│       └── huimao-api-system                          // 系统接口
-├── huimao-demo         // 样例代码模块 [39203]
-├── huimao-common          // 通用模块
-│       └── huimao-common-core                         // 核心模块
-│       └── huimao-common-datascope                    // 权限范围
-│       └── huimao-common-datasource                   // 多数据源
-│       └── huimao-common-log                          // 日志记录
-│       └── huimao-common-redis                        // 缓存服务
-│       └── huimao-common-security                     // 安全模块
-│       └── huimao-common-swagger                      // 系统接口
-│       └── huimao-common-message                      // 消息通知
-│       └── huimao-common-mybatisplus                  // mybatis租户增强组件
-│       └── huimao-common-seata                        // seata组件(未启用)
-├── huimao-modules         // 业务模块
-│       └── huimao-system                              // 系统模块 [39201]
-│       └── huimao-gen                                 // 代码生成 [39202]
-│       └── huimao-file                                // 文件服务 [39300]
-│       └── huimao-job                                 // 定时任务服务 [39024]
-├── huimao-visual          // 图形化管理模块
-│       └── huimao-visual-monitor                      // 监控中心 [39100]
-├──pom.xml                // 公共依赖
-~~~
+### Java 项目框架 和 WEB PC 项目运行环境
+```
+1. Spring Boot 2.7.x
+2. Spring Cloud Alibaba 2021.0.5.0
+3. Maven 3.6+
+4. MyBatis Plus 3.5.x
+5. Nacos 2.2.x
+6. XXL-JOB 2.4.0
+7. npm 6+
+8. node 14+
+9. vue 2.x
+10. element ui 2.15.x
+```
+
+### 项目代码包介绍
+```
+1. huimao-platform  后端主工程  Spring Cloud Alibaba 微服务底座
+2. huimao-ui        WEB程序     PC端管理端 VUE + ElementUI
+3. huimao-miniapp   移动应用    UniApp标准开发(微信小程序 + H5)
+4. huimao-doc       文档        项目设计文档、部署文档、使用文档
+5. 接口文档         Api文档     部署项目后可在线查看 Swagger 接口文档
+```
+
+---
+
+## 系统演示
+管理后台：http://huimao.pc.huizhidata.com/
+账号：hengtong      
+密码：admin123456
+
+车主端小程序：扫码体验
+
+![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
+H5：http://huimao-h5.huizhidata.com/
+
+---
+
+## 📚 项目资料
+### 资料支持
+使用文档：http://huimao.doc.huizhidata.com/
+接口文档：http://huimao.doc.huizhidata.com//swagger-ui.html  
+二开文档：http://huimao.doc.huizhidata.com/
+技术社区：https://huimao.huizhidata.com/
+
+### 安装教程
+快速安装：点击查看  
+安装步骤详解：http://huimao.doc.huizhidata.com/
+
+---
+## HUIMAO Parking 开源技术交流
+欢迎加入 HUIMAO Parking 开源技术交流群，扫码进群免费领取接口文档、功能清单、思维导图、部署教程等资源！
+
+<div align="center">
+
+![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
+
+  <br>
+  接口文档 | 产品功能清单 | 思维导图 | 安装教程
+</div>
+
+您还可以在 HUIMAO Parking 技术社区 中提交 Bug、交流解决方案、获取官方更新动态，HUIMAO Parking 技术社区伴您一路前行。
+
+---
+![img_1.png](img_1.png)
 
 
-## 内置功能
+| 🔴 多端应用 | 🟠 运营管理 | 🟡 停车业务 | 🟢 支付结算 |
+|------------|------------|------------|------------|
+| 平台运营端 | 租户管理 | 入场管理 | 微信支付 |
+| 租户管理端 | 租户套餐 | 出场管理 | 支付宝支付 |
+| 车主小程序 | 停车场管理 | 自动计费 | 余额支付 |
+| H5端 | 通道设备管理 | 手动计费 | 优惠券抵扣 |
+| 设备模拟器 | 收费规则配置 | 停车记录 | 账户管理 |
+| 车牌识别 | 订单追踪 | 异常订单 | 提现审核 |
+| 扫码缴费 | 收入统计 | 车辆黑名单 | 财务对账 |
+| 订单查询 | 经营看板 | 车辆白名单 | 发票管理 |
 
-1. 租户管理：配置系统租户，支持 SaaS 场景下的多租户功能。
-2. 配置租户套餐：自定每个租户的菜单、操作、按钮的权限。
-3. 用户管理：用户是系统操作者，该功能主要完成系统用户配置。
-4. 部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
-5. 岗位管理：配置系统用户所属担任职务。
-6. 菜单管理：配置系统菜单，操作权限，按钮权限标识等。
-7. 角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
-8. 字典管理：对系统中经常使用的一些较为固定的数据进行维护。
-9. 参数管理：对系统动态配置常用参数。
-10. 通知公告：系统通知公告信息发布维护。
-11. 操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
-12. 登录日志：系统登录日志记录查询包含登录异常。
-13. 在线用户：当前系统中活跃用户状态监控。
-14. 代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。
-15. 系统接口：根据业务代码自动生成相关的api接口文档。
-16. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
-17. 在线构建器：拖动表单元素生成相应的HTML代码。
+| 🔵 设备管理 | 🟣 系统设置 | 🟤 第三方对接 | ⚫ 统计分析 |
+|------------|------------|--------------|------------|
+| 道闸接入 | 用户管理 | 微信支付对接 | 车流量统计 |
+| 摄像头接入 | 角色权限 | 支付宝对接 | 收入统计 |
+| 显示屏接入 | 菜单管理 | 短信服务对接 | 订单统计 |
+| 远程开闸 | 数据字典 | 发票服务对接 | 设备在线率 |
+| 指令下发 | 系统配置 | 高德地图对接 | 租户营收排行 |
+| 状态监测 | 日志管理 | 第三方ERP对接 | 时段分析 |
+| 故障报警 | 备份恢复 | 电子发票对接 | 异常订单统计 |
+| 设备升级 | 定时任务 | 车牌识别对接 | 运营报表 |
 
+---
 
-
-
-
-
+© 2026 HUIMAO Parking 版权所有  
+开源协议：MIT  
+技术支持：544061884@hqq.com
