@@ -39,6 +39,17 @@ HUIMAO Parking 是一款基于 MIT 协议发布的开源停车场数字化解决
 ![b6e88fd1c2ff443c664ba6670640e614_13.png](doc/images/b6e88fd1c2ff443c664ba6670640e614_13.png)
 ![5df9e18f8049ac1d5d2b25c12a931653_14.png](doc/images/5df9e18f8049ac1d5d2b25c12a931653_14.png)
 
+### 系统演示
+管理后台：http://huimao.pc.huizhidata.com/
+账号：hengtong      
+密码：admin123456
+
+车主端小程序：扫码体验
+
+![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
+H5：http://huimao-h5.huizhidata.com/
+
+---
 
 ### 技术架构
 系统采用 Java + Vue + uni-app 技术栈，基于 Spring Cloud Alibaba 微服务架构构建，前后端分离设计清晰。借助 uni-app 跨端能力，实现管理后台、车主小程序、H5 端全覆盖，数据统一、业务同步，极大提升开发与维护效率。同时系统代码规范清晰，注释详尽，二次开发十分方便。
@@ -110,17 +121,6 @@ HUIMAO Parking 是一款基于 MIT 协议发布的开源停车场数字化解决
 
 ---
 
-## 系统演示
-管理后台：http://huimao.pc.huizhidata.com/
-账号：hengtong      
-密码：admin123456
-
-车主端小程序：扫码体验
-
-![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
-H5：http://huimao-h5.huizhidata.com/
-
----
 
 ## 📚 项目资料
 ### 资料支持
