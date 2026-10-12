@@ -121,6 +121,9 @@ H5：http://huimao-h5.huizhidata.com/
 
 ---
 
+### 🖥 +v:18601938676 如果您也对开源感兴趣，欢迎加入群 ,加群请注明原因，开源、共享、共赢永远是主旋律。
+
+![输入图片说明](doc/huizhi/images/我的.png)
 
 ## 📚 项目资料
 ### 资料支持
@@ -148,7 +151,7 @@ H5：http://huimao-h5.huizhidata.com/
 您还可以在 HUIMAO Parking 技术社区 中提交 Bug、交流解决方案、获取官方更新动态，HUIMAO Parking 技术社区伴您一路前行。
 
 ---
-![img_1.png](img_1.png)
+![img_1.png](doc/images/img_1.png)
 
 
 | 🔴 多端应用 | 🟠 运营管理 | 🟡 停车业务 | 🟢 支付结算 |
